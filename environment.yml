@@ -1,0 +1,12 @@
+name: geo-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8  
+  - rasterio
+  - folium
+  - pypng
+  - notebook 
+  - pip
+  - pip:
+      - matplotlib 
